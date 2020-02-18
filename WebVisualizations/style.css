@@ -1,20 +1,97 @@
-.box {
-  min-height: 50px;
-  padding: 5px;
-  margin: 5px;
-  font-weight: 800;
-  color: #fff;
+/*
+ CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #FFFFFF;
 }
 
-.skyblue {
-  background: deepskyblue;
+header {
+  background: #FFFFFF;
+  text-align: left;
 }
 
-.purple {
-  background: rebeccapurple;
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: green;
+  text-align: left;
 }
 
-.red {
-  background: indianred;
+h2 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: green;
+  text-align: left;
+}
+
+a {
+  color: #d21034;
+}
+
+p {
+  color: black;
+}
+
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background: white;
+}
+
+.section {
+  color: #333;
+}
+
+.box-grid-image {
+  border: solid 2px green;
+}
+
+/* Selecting elements by ID */
+#main-summary,
+#summary-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#main-summary {
+  width: 70%;
+}
+
+#summary-image {
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#comparison-image {
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#grid-image {
+  width: 175px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
